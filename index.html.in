@@ -10,19 +10,19 @@
 </head>
 
 <body class="w-100 sans-serif">
-    <h1 class="pt1 ph3 ph5-ns mv3"><a class="link dim black b f1 f-headline-ns db" href="#" title="Home"><img src="logo.png" alt="tmux" id="upper-left-title"></img></a></h1>
+    <h1 class="pt1 ph3 ph5-ns mv3 b f1 f-headline-ns db"><img src="logo.png" alt="tmux" id="upper-left-title"></img></h1>
 
     <nav class="pb4 ph3 ph5-ns">
-        <a class="link b f6 f5-ns dim blue lh-solid dib mr3" href="https://raw.githubusercontent.com/tmux/tmux/master/README">README</a>
-        <a class="link b f6 f5-ns dim blue lh-solid dib mr3" href="http://man.openbsd.org/OpenBSD-current/man1/tmux.1">Manual Page</a>
-        <a class="link b f6 f5-ns dim blue lh-solid dib mr3" href="https://raw.githubusercontent.com/tmux/tmux/master/FAQ">FAQ</a>
-        <a class="link b f6 f5-ns dim blue lh-solid dib mr3" href="https://github.com/tmux/tmux">Source Code</a>
-        <a class="link b f6 f5-ns dim blue lh-solid dib mr3" href="https://groups.google.com/forum/#!forum/tmux-users">Mailing List</a>
-        <a class="link b f6 f5-ns dim blue lh-solid dib" href="irc://irc.freenode.net/tmux">IRC Channel</a>
+        <a class="link b f6 f5-ns dim blue lh-solid dib mr3 pt2 pt0-l" href="https://raw.githubusercontent.com/tmux/tmux/master/README">README</a>
+        <a class="link b f6 f5-ns dim blue lh-solid dib mr3 pt2 pt0-l" href="http://man.openbsd.org/OpenBSD-current/man1/tmux.1">Manual Page</a>
+        <a class="link b f6 f5-ns dim blue lh-solid dib mr3 pt2 pt0-l" href="https://raw.githubusercontent.com/tmux/tmux/master/FAQ">FAQ</a>
+        <a class="link b f6 f5-ns dim blue lh-solid dib mr3 pt2 pt0-l" href="https://github.com/tmux/tmux">Source Code</a>
+        <a class="link b f6 f5-ns dim blue lh-solid dib mr3 pt2 pt0-l" href="https://groups.google.com/forum/#!forum/tmux-users">Mailing List</a>
+        <a class="link b f6 f5-ns dim blue lh-solid dib pt2 pt0-l" href="irc://irc.freenode.net/tmux">IRC Channel</a>
     </nav>
 
 
-    <article class="bt b--black-10 bg-washed-blue black-70 ph3 ph5-ns pt4 pt4-ns pb4 pb5-ns">
+    <article class="bt b--black-10 bg-washed-blue black-70 ph3 ph5-ns pt2 pt3-ns pb4 pb5-ns">
         <p class="f3 fw6 measure lh-copy">tmux is a terminal multiplexer</p>
 
         <h2 class="mt0 f5 f4-ns pt2 fw4"> What is a terminal multiplexer?</h2>
@@ -31,7 +31,7 @@
         <a class="f6 f5-ns fw6 dib ba b--black-20 bg-blue white ph3 ph4-ns pv2 pv3-ns br2 no-underline grow" href="https://github.com/tmux/tmux/releases/download/2.4/tmux-2.4.tar.gz">Download <code class="f6 fw4 di">v2.4</code></a>
 
         <p class="f5 fw4 pv4 measure lh-copy">
-            See the <a href="https://raw.githubusercontent.com/tmux/tmux/master/CHANGES" class="link b f6 f5-ns dim blue lh-solid">changes</a> in the new version. Try the <a href="https://github.com/tmux/tmux/releases/download/2.5/tmux-2.5-rc2.tar.gz" class="link b f6 f5-ns dim blue lh-solid">2.5 release candidate</a>, or get the <a href="https://github.com/tmux/tmux" class="link b f6 f5-ns dim blue lh-solid">development version.</a>
+            See the <a href="https://raw.githubusercontent.com/tmux/tmux/master/CHANGES" class="link b f6 f5-ns dim blue lh-solid">changes</a> in the new version. Try the <a href="https://github.com/tmux/tmux/releases/download/2.5/tmux-2.5-rc2.tar.gz" class="link b f6 f5-ns dim blue lh-solid">v2.5 release candidate</a>, or get the <a href="https://github.com/tmux/tmux" class="link b f6 f5-ns dim blue lh-solid">development version.</a>
         </p>
 
 
@@ -51,7 +51,7 @@
         </p>
 
         <p class="f5 fw4 measure lh-copy">
-            There are some programs to use with tmux on <a href="https://github.com/search?q=tmux&type=Repositories&ref=simplesearch" class="link b f6 f5-ns dim blue lh-solid">GitHub</a> and a <a href="https://pragprog.com/book/bhtmux2/tmux-2" class="link b f6 f5-ns dim blue lh-solid">book on tmux</a>.
+            There are some programs to use with tmux on <a href="https://github.com/search?q=tmux&type=Repositories&ref=simplesearch" class="link b f6 f5-ns dim blue lh-solid">GitHub</a> and a <a href="https://pragprog.com/book/bhtmux2/tmux-2" class="link b f6 f5-ns dim blue lh-solid">book </a> on tmux.
         </p>
     </footer>
 
