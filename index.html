@@ -1,66 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
 <html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-	<title>tmux</title>
-	<link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
-    </head>
-    <body>
-	<div id="body-wrapper">
-	    <div id="left-menu-container">
-		<img src="logo.png" alt="tmux" id="upper-left-title"></img>
-		<ul id="left-menu">
-			<li><a href="https://github.com/tmux/tmux/releases/download/2.4/tmux-2.4.tar.gz">Download</a></li>
-		<li><a href="https://raw.githubusercontent.com/tmux/tmux/master/README">README</a></li>
-		<li><a href="http://man.openbsd.org/OpenBSD-current/man1/tmux.1">Manual Page</a></li>
-		<li><a href="https://raw.githubusercontent.com/tmux/tmux/master/FAQ">FAQ</a></li>
-		<li><a href="https://github.com/tmux/tmux">Source Code</a></li>
-		<li><a href="https://groups.google.com/forum/#!forum/tmux-users">Mailing List</a></li>
-		<li><a href="irc://irc.freenode.net/tmux">IRC Channel</a></li>
-		</ul>
-	    </div>
-	    <div id="main-content-wrapper">
 
-<p><b>tmux is a terminal multiplexer</b></p>
+<head>
+    <title>tmux</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="tachyons.min.css"/>
+</head>
 
-<p><b>What is a terminal multiplexer?</b> It lets you switch easily between
-several programs in one terminal, detach them (they keep running in the
-background) and reattach them to a different terminal. And do a lot more. See
-<a href="http://man.openbsd.org/OpenBSD-current/man1/tmux.1">
-the manual</a>.</p>
+<body class="w-100 sans-serif">
+    <h1 class="pt1 ph3 ph5-ns mv3"><a class="link dim black b f1 f-headline-ns db" href="#" title="Home"><img src="logo.png" alt="tmux" id="upper-left-title"></img></a></h1>
 
-<p><b><a href="https://github.com/tmux/tmux/releases/download/2.4/tmux-2.4.tar.gz">
-Download tmux 2.4</a></b>
-<a href="https://raw.githubusercontent.com/tmux/tmux/master/CHANGES">(changes)</a>, try the
-<a href="https://github.com/tmux/tmux/releases/download/2.5/tmux-2.5-rc2.tar.gz">
-2.5 release candidate</a>, or
-<a href="https://github.com/tmux/tmux">
-get the development version.</a>
-tmux is hosted on
-<a href="http://github.com/tmux">GitHub</a>
-and needs
-<a href="http://www.monkey.org/~provos/libevent/">libevent</a>
-and
-<a href="http://invisible-island.net/ncurses/">ncurses</a>.</p>
+    <nav class="pb4 ph3 ph5-ns">
+        <a class="link b f6 f5-ns dim blue lh-solid dib mr3" href="https://raw.githubusercontent.com/tmux/tmux/master/README">README</a>
+        <a class="link b f6 f5-ns dim blue lh-solid dib mr3" href="http://man.openbsd.org/OpenBSD-current/man1/tmux.1">Manual Page</a>
+        <a class="link b f6 f5-ns dim blue lh-solid dib mr3" href="https://raw.githubusercontent.com/tmux/tmux/master/FAQ">FAQ</a>
+        <a class="link b f6 f5-ns dim blue lh-solid dib mr3" href="https://github.com/tmux/tmux">Source Code</a>
+        <a class="link b f6 f5-ns dim blue lh-solid dib mr3" href="https://groups.google.com/forum/#!forum/tmux-users">Mailing List</a>
+        <a class="link b f6 f5-ns dim blue lh-solid dib" href="irc://irc.freenode.net/tmux">IRC Channel</a>
+    </nav>
 
-<p>For support contact the
-<a href="mailto:tmux-users@googlegroups.com">tmux-users@googlegroups.com</a>
-mailing list or IRC channel
-<a href="irc://irc.freenode.net/tmux">#tmux on freenode</a>.</p>
 
-<p>There are some programs to use with tmux
-<a href="https://github.com/search?q=tmux&type=Repositories&ref=simplesearch">
-on GitHub</a> and a
-<a href="https://pragprog.com/book/bhtmux2/tmux-2">book on tmux</a>.</p>
+    <article class="bt b--black-10 bg-washed-blue black-70 ph3 ph5-ns pt4 pt4-ns pb4 pb5-ns">
+        <div class="w-60">
+            <p class="f3 fw6">tmux is a terminal multiplexer</p>
 
-<div id="screenshots">
-  <a href="ss-tmux1.png"><img src="ss-small-tmux1.png" alt="Screenshot"/></a>
-  <a href="ss-tmux2.png"><img src="ss-small-tmux2.png" alt="Screenshot"/></a>
-  <a href="ss-tmux3.png"><img src="ss-small-tmux3.png" alt="Screenshot"/></a>
-  <a href="ss-tmux4.png"><img src="ss-small-tmux4.png" alt="Screenshot"/></a>
-</div>
-	    </div>
-	</div>
-    </body>
+            <h2 class="mt0 f5 f4-ns pt2 fw4"> What is a terminal multiplexer?</h2>
+            <p class="f5 fw4 pb4 w-80-ns">It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal. And do a lot more. See <a href="http://man.openbsd.org/OpenBSD-current/man1/tmux.1" class="link b f6 f5-ns dim blue lh-solid">the manual</a>.</p>
+
+            <a class="f6 f5-ns fw6 dib ba b--black-20 bg-blue white ph3 ph4-ns pv2 pv3-ns br2 no-underline" href="https://github.com/tmux/tmux/releases/download/2.4/tmux-2.4.tar.gz">Download <code class="f6 fw4 di">v2.4</code></a>
+
+            <p class="f5 fw4 pt4">
+                See the <a href="https://raw.githubusercontent.com/tmux/tmux/master/CHANGES" class="link b f6 f5-ns dim blue lh-solid">changes</a> in the new version. Try the <a href="https://github.com/tmux/tmux/releases/download/2.5/tmux-2.5-rc2.tar.gz" class="link b f6 f5-ns dim blue lh-solid">2.5 release candidate</a>, or get the <a href="https://github.com/tmux/tmux" class="link b f6 f5-ns dim blue lh-solid">development version.</a>
+            </p>
+
+
+            <a class="di" title="Screenshot #1" href="ss-tmux1.png"> <img src="ss-small-tmux1.png"></a>
+            <a class="di" title="Screenshot #2" href="ss-tmux2.png"> <img src="ss-small-tmux2.png"></a>
+            <a class="di" title="Screenshot #3" href="ss-tmux3.png"> <img src="ss-small-tmux3.png"></a>
+            <a class="di" title="Screenshot #4" href="ss-tmux4.png"> <img src="ss-small-tmux4.png"></a>
+        </div>
+    </article>
+
+    <footer class="ph3 ph4-ns pv4 bt b--black-10 black-70">
+        <p class="f5 fw4">
+            tmux is hosted on <a href="http://github.com/tmux" class="link b f6 f5-ns dim blue lh-solid">GitHub</a> and needs <a href="http://www.monkey.org/~provos/libevent/" class="link b f6 f5-ns dim blue lh-solid">libevent</a> and <a href="http://invisible-island.net/ncurses/" class="link b f6 f5-ns dim blue lh-solid"class="link b f6 f5-ns dim blue lh-solid">ncurses</a>.
+        </p>
+
+        <p class="f5 fw4">
+            For support contact the <a href="mailto:tmux-users@googlegroups.com" class="link b f6 f5-ns dim blue lh-solid">tmux-users@googlegroups.com</a> mailing list or IRC channel <a href="irc://irc.freenode.net/tmux" class="link b f6 f5-ns dim blue lh-solid">#tmux on freenode</a>.
+        </p>
+
+        <p class="f5 fw4">
+            There are some programs to use with tmux on <a href="https://github.com/search?q=tmux&type=Repositories&ref=simplesearch" class="link b f6 f5-ns dim blue lh-solid">GitHub</a> and a <a href="https://pragprog.com/book/bhtmux2/tmux-2" class="link b f6 f5-ns dim blue lh-solid">book on tmux</a>.
+        </p>
+    </footer>
+
+</body>
 </html>
