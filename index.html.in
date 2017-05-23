@@ -23,24 +23,22 @@
 
 
     <article class="bt b--black-10 bg-washed-blue black-70 ph3 ph5-ns pt4 pt4-ns pb4 pb5-ns">
-        <div class="w-60">
-            <p class="f3 fw6 measure lh-copy">tmux is a terminal multiplexer</p>
+        <p class="f3 fw6 measure lh-copy">tmux is a terminal multiplexer</p>
 
-            <h2 class="mt0 f5 f4-ns pt2 fw4"> What is a terminal multiplexer?</h2>
-            <p class="f5 fw4 pb4 measure lh-copy">It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal. And do a lot more. See <a href="http://man.openbsd.org/OpenBSD-current/man1/tmux.1" class="link b f6 f5-ns dim blue lh-solid">the manual</a>.</p>
+        <h2 class="mt0 f5 f4-ns pt2 fw4"> What is a terminal multiplexer?</h2>
+        <p class="f5 fw4 pb4 measure lh-copy">It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal. And do a lot more. See <a href="http://man.openbsd.org/OpenBSD-current/man1/tmux.1" class="link b f6 f5-ns dim blue lh-solid">the manual</a>.</p>
 
-            <a class="f6 f5-ns fw6 dib ba b--black-20 bg-blue white ph3 ph4-ns pv2 pv3-ns br2 no-underline" href="https://github.com/tmux/tmux/releases/download/2.4/tmux-2.4.tar.gz">Download <code class="f6 fw4 di">v2.4</code></a>
+        <a class="f6 f5-ns fw6 dib ba b--black-20 bg-blue white ph3 ph4-ns pv2 pv3-ns br2 no-underline" href="https://github.com/tmux/tmux/releases/download/2.4/tmux-2.4.tar.gz">Download <code class="f6 fw4 di">v2.4</code></a>
 
-            <p class="f5 fw4 pv4 measure lh-copy">
-                See the <a href="https://raw.githubusercontent.com/tmux/tmux/master/CHANGES" class="link b f6 f5-ns dim blue lh-solid">changes</a> in the new version. Try the <a href="https://github.com/tmux/tmux/releases/download/2.5/tmux-2.5-rc2.tar.gz" class="link b f6 f5-ns dim blue lh-solid">2.5 release candidate</a>, or get the <a href="https://github.com/tmux/tmux" class="link b f6 f5-ns dim blue lh-solid">development version.</a>
-            </p>
+        <p class="f5 fw4 pv4 measure lh-copy">
+            See the <a href="https://raw.githubusercontent.com/tmux/tmux/master/CHANGES" class="link b f6 f5-ns dim blue lh-solid">changes</a> in the new version. Try the <a href="https://github.com/tmux/tmux/releases/download/2.5/tmux-2.5-rc2.tar.gz" class="link b f6 f5-ns dim blue lh-solid">2.5 release candidate</a>, or get the <a href="https://github.com/tmux/tmux" class="link b f6 f5-ns dim blue lh-solid">development version.</a>
+        </p>
 
 
-            <a class="di" title="Screenshot #1" href="ss-tmux1.png"> <img src="ss-small-tmux1.png"></a>
-            <a class="di" title="Screenshot #2" href="ss-tmux2.png"> <img src="ss-small-tmux2.png"></a>
-            <a class="di" title="Screenshot #3" href="ss-tmux3.png"> <img src="ss-small-tmux3.png"></a>
-            <a class="di" title="Screenshot #4" href="ss-tmux4.png"> <img src="ss-small-tmux4.png"></a>
-        </div>
+        <a class="di" title="Screenshot #1" href="ss-tmux1.png"> <img src="ss-small-tmux1.png"></a>
+        <a class="di" title="Screenshot #2" href="ss-tmux2.png"> <img src="ss-small-tmux2.png"></a>
+        <a class="di" title="Screenshot #3" href="ss-tmux3.png"> <img src="ss-small-tmux3.png"></a>
+        <a class="di" title="Screenshot #4" href="ss-tmux4.png"> <img src="ss-small-tmux4.png"></a>
     </article>
 
     <footer class="ph3 ph5-ns pv4 bt b--black-10 black-70">
